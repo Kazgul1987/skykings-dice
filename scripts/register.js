@@ -1,8 +1,9 @@
 Hooks.once('diceSoNiceReady', (dice3d) => {
+  const mod = game.modules.get('skykings-dice').path;
   dice3d.addTexture('skystone', {
     name: 'Sky Stone',
     composite: 'multiply',
-    source: 'modules/skykings-dice/assets/textures/stone.png'
+    source: `${mod}/assets/textures/stone.png`
   });
 
   dice3d.addColorset({
@@ -17,7 +18,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
     material: 'metal'
   }, 'preferred');
 
-  const base = 'modules/skykings-dice/assets/labels';
+  const base = `${mod}/assets/labels`;
   const L = (die, faces) => faces.map(f => `${base}/${die}/${f}.png`);
 
   dice3d.addDicePreset({ type: 'd4',  labels: L('d4',  [1,2,3,4]), colorset: 'Sky Kings Tomb', system: 'standard' });
