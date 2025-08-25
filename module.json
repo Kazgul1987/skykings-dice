@@ -2,7 +2,7 @@
   "id": "skykings-dice",
   "title": "Sky King's Tomb Dice",
   "description": "Dice so Nice! colorset and presets with runic, readable numerals on forged-stone textures, themed for Sky King's Tomb.",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "compatibility": { "minimum": "10", "verified": "13" },
   "type": "module",
   "authors": [ { "name": "Kazgul1987" } ],
