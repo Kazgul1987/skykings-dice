@@ -10,5 +10,5 @@
   "esmodules": [ "scripts/register.js" ],
   "url": "https://github.com/Kazgul1987/skykings-dice",
   "manifest": "https://raw.githubusercontent.com/kazgul1987/skykings-dice/main/module.json",
-  "download": "https://github.com/Kazgul1987/skykings-dice/releases/download/v1.0.0/skykings-dice.zip"
+  "download": "https://github.com/Kazgul1987/skykings-dice/releases/download/v1.0.1/skykings-dice.zip"
 }
